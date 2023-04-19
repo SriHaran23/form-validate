@@ -1,0 +1,26 @@
+.sidenav{
+    width: 15%;
+    height: 95vh;
+  }
+  
+  .list{
+    width: 65%;
+    height: 95vh;
+}
+
+.scroll{
+    overflow-y: scroll;
+    height: 90vh;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+.scroll {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.cart{
+    width: 20%;
+    height: 95vh;
+  }
+  

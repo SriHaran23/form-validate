@@ -1,6 +1,7 @@
 import React, { useState, createContext } from 'react';
 import './App.css';
 import Dashboard from './Components/Dashboard';
+import Errorhandling from './Components/Errorhandle';
 // import Formval from './Components/Form';
 // import Formval1 from './Components/Form1';
 // import { Route, Routes } from 'react-router-dom';
@@ -20,6 +21,7 @@ function App() {
         </Routes>
       </ThemeContext.Provider> */}
       <Dashboard></Dashboard>
+      {/* <Errorhandling></Errorhandling> */}
       
     </div>
   );
