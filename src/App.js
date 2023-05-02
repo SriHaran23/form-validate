@@ -1,28 +1,26 @@
-import React, { useState, createContext } from 'react';
+import React from 'react';
 import './App.css';
+import { Route, Routes } from 'react-router-dom'
+import Food from './Components/Food/Dashboard';
+import Paginate from './Components/pagination/Dasboard';
+import Traslation from './Components/translation/Dashboard1';
+import Errorhandling from './Components/ErrorHandling/Errorhandle';
 import Dashboard from './Components/Dashboard';
-import Errorhandling from './Components/Errorhandle';
-// import Formval from './Components/Form';
-// import Formval1 from './Components/Form1';
-// import { Route, Routes } from 'react-router-dom';
-
-export const ThemeContext = createContext();
+import Formval from './Components/Form/Form';
+import Formval1 from './Components/Form/Form1';
 
 function App() {
-  const [theme, setTheme] = useState(true);
   return (
-    <div>
-      {/* <ThemeContext.Provider value={{theme,setTheme}}>
-      <button onClick={() => {setTheme(!theme)}} className='btn btn-secondary'>Use dark mode</button>
-        <h1 className='justify-self-center'>Form</h1>
-        <Routes>
+    <div className='App scroll'>
+      <Routes>
+          <Route path="/" element={<Dashboard></Dashboard>} />
+          <Route path="/food" element={<Food></Food>} />
+          <Route path="/form" element={<Formval1></Formval1>} />
           <Route path="/edit" element={<Formval></Formval>} />
-          <Route path="/" element={<Formval1></Formval1>} />
+          <Route path="/pagination" element={<Paginate></Paginate>} />
+          <Route path="/translation" element={<Traslation></Traslation>} />
+          <Route path="/errorhandling" element={<Errorhandling></Errorhandling>} />
         </Routes>
-      </ThemeContext.Provider> */}
-      <Dashboard></Dashboard>
-      {/* <Errorhandling></Errorhandling> */}
-      
     </div>
   );
 }

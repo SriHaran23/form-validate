@@ -5,6 +5,7 @@ export const navitems = {
       "is_sub_category": false,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 219,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -13,6 +14,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 218,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -31,6 +33,7 @@ export const navitems = {
       "is_sub_category": true,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 182,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -39,6 +42,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 189,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -47,6 +51,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 180,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -55,6 +60,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 181,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -63,6 +69,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 179,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -81,6 +88,7 @@ export const navitems = {
       "is_sub_category": false,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 186,
           "active": true,
           "last_modified_date": "2022-09-10 13:23:36.0",
@@ -89,6 +97,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 142,
           "active": true,
           "last_modified_date": "2022-09-10 13:25:07.0",
@@ -97,6 +106,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 140,
           "active": true,
           "last_modified_date": "2022-09-10 13:24:13.0",
@@ -105,6 +115,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 182,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -123,6 +134,7 @@ export const navitems = {
       "is_sub_category": false,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 128,
           "active": true,
           "last_modified_date": "2023-02-26 03:42:14.0",
@@ -131,6 +143,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 143,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -139,6 +152,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 129,
           "active": true,
           "last_modified_date": "2022-09-10 13:07:55.0",
@@ -147,6 +161,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 220,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -165,6 +180,7 @@ export const navitems = {
       "is_sub_category": false,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 141,
           "active": true,
           "last_modified_date": "2022-09-10 13:41:48.0",
@@ -173,6 +189,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 131,
           "active": true,
           "last_modified_date": "2022-09-10 13:09:20.0",
@@ -181,6 +198,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 143,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -189,6 +207,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 144,
           "active": true,
           "last_modified_date": "2022-09-10 13:26:22.0",
@@ -197,6 +216,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 140,
           "active": true,
           "last_modified_date": "2022-09-10 13:24:13.0",
@@ -205,6 +225,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 129,
           "active": true,
           "last_modified_date": "2022-09-10 13:07:55.0",
@@ -213,6 +234,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 220,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -221,6 +243,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 133,
           "active": true,
           "last_modified_date": "2022-09-10 13:12:35.0",
@@ -229,6 +252,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 128,
           "active": true,
           "last_modified_date": "2023-02-26 03:42:14.0",
@@ -247,6 +271,7 @@ export const navitems = {
       "is_sub_category": false,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 145,
           "active": true,
           "last_modified_date": "2022-09-10 13:25:53.0",
@@ -255,6 +280,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 144,
           "active": true,
           "last_modified_date": "2022-09-10 13:26:22.0",
@@ -263,6 +289,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 167,
           "active": true,
           "last_modified_date": "2023-01-22 03:51:06.0",
@@ -271,6 +298,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 184,
           "active": true,
           "last_modified_date": "2022-09-10 13:27:32.0",
@@ -279,6 +307,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 143,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -287,6 +316,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 140,
           "active": true,
           "last_modified_date": "2022-09-10 13:24:13.0",
@@ -295,6 +325,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 141,
           "active": true,
           "last_modified_date": "2022-09-10 13:41:48.0",
@@ -313,6 +344,7 @@ export const navitems = {
       "is_sub_category": false,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 206,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -321,6 +353,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 128,
           "active": true,
           "last_modified_date": "2023-02-26 03:42:14.0",
@@ -329,6 +362,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 130,
           "active": true,
           "last_modified_date": "2022-09-10 13:08:27.0",
@@ -337,6 +371,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 211,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -355,6 +390,7 @@ export const navitems = {
       "is_sub_category": false,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 216,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -363,6 +399,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 208,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -371,6 +408,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 141,
           "active": true,
           "last_modified_date": "2022-09-10 13:41:48.0",
@@ -379,6 +417,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 178,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -387,6 +426,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 223,
           "active": true,
           "last_modified_date": "2023-01-23 01:08:33.0",
@@ -395,6 +435,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 177,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -403,6 +444,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 144,
           "active": true,
           "last_modified_date": "2022-09-10 13:26:22.0",
@@ -411,6 +453,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 199,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -419,6 +462,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 191,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -427,6 +471,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 188,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -435,6 +480,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 143,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -443,6 +489,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 209,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -451,6 +498,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 157,
           "active": true,
           "last_modified_date": "2022-09-10 13:38:46.0",
@@ -459,6 +507,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 158,
           "active": true,
           "last_modified_date": "2022-09-10 13:37:55.0",
@@ -467,6 +516,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 156,
           "active": true,
           "last_modified_date": "2022-09-10 13:36:06.0",
@@ -475,6 +525,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 153,
           "active": true,
           "last_modified_date": "2022-09-10 13:30:52.0",
@@ -483,6 +534,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 206,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -491,6 +543,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 154,
           "active": true,
           "last_modified_date": "2022-09-10 13:29:59.0",
@@ -499,6 +552,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 147,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -507,6 +561,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 155,
           "active": true,
           "last_modified_date": "2022-09-10 13:37:16.0",
@@ -515,6 +570,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 133,
           "active": true,
           "last_modified_date": "2022-09-10 13:12:35.0",
@@ -523,6 +579,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 151,
           "active": true,
           "last_modified_date": "2022-09-10 13:29:13.0",
@@ -531,6 +588,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 150,
           "active": true,
           "last_modified_date": "2022-09-10 13:28:31.0",
@@ -539,6 +597,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 152,
           "active": true,
           "last_modified_date": "2022-09-10 13:39:30.0",
@@ -557,6 +616,7 @@ export const navitems = {
       "is_sub_category": false,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 208,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -565,6 +625,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 203,
           "active": true,
           "last_modified_date": "2022-09-28 04:53:09.0",
@@ -573,6 +634,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 207,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -581,6 +643,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 205,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -589,6 +652,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 206,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -597,6 +661,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 204,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -605,6 +670,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 163,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -613,6 +679,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 212,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -621,6 +688,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 161,
           "active": true,
           "last_modified_date": "2022-09-10 13:20:42.0",
@@ -629,6 +697,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 162,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -637,6 +706,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 160,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -655,6 +725,7 @@ export const navitems = {
       "is_sub_category": false,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 138,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -663,6 +734,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 135,
           "active": true,
           "last_modified_date": "2022-09-10 13:20:05.0",
@@ -671,12 +743,14 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 170,
           "food_add_on": [
             {
               "active": 1,
               "food_add_on_id": 9,
-              "created_date": "2023-04-15T18:20:35.000+00:00",
+              
+              "status":0,"created_date": "2023-04-15T18:20:35.000+00:00",
               "food_item_id": 170,
               "food_add_on_name": "chapati",
               "food_add_on_price": 0.0,
@@ -688,7 +762,8 @@ export const navitems = {
             {
               "active": 1,
               "food_add_on_id": 10,
-              "created_date": "2023-04-15T18:20:35.000+00:00",
+              
+              "status":0,"created_date": "2023-04-15T18:20:35.000+00:00",
               "food_item_id": 170,
               "food_add_on_name": "rice",
               "food_add_on_price": 0.0,
@@ -702,7 +777,8 @@ export const navitems = {
             {
               "foodPreparationId": 8,
               "active": 1,
-              "created_date": "2023-04-15T18:25:23.000+00:00",
+              
+              "status":0,"created_date": "2023-04-15T18:25:23.000+00:00",
               "food_item_id": 170,
               "food_preparation_price": 0.0,
               "food_prepartion_name": "Spice Levels",
@@ -720,6 +796,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 132,
           "active": true,
           "last_modified_date": "2022-09-10 13:19:30.0",
@@ -728,12 +805,14 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 165,
           "food_add_on": [
             {
               "active": 1,
               "food_add_on_id": 4,
-              "created_date": "2023-04-15T18:19:06.000+00:00",
+              
+              "status":0,"created_date": "2023-04-15T18:19:06.000+00:00",
               "food_item_id": 165,
               "food_add_on_name": "chapati",
               "food_add_on_price": 0.0,
@@ -745,7 +824,8 @@ export const navitems = {
             {
               "active": 1,
               "food_add_on_id": 5,
-              "created_date": "2023-04-15T18:19:06.000+00:00",
+              
+              "status":0,"created_date": "2023-04-15T18:19:06.000+00:00",
               "food_item_id": 165,
               "food_add_on_name": "rice",
               "food_add_on_price": 0.0,
@@ -759,7 +839,8 @@ export const navitems = {
             {
               "foodPreparationId": 4,
               "active": 1,
-              "created_date": "2023-04-15T18:25:00.000+00:00",
+              
+              "status":0,"created_date": "2023-04-15T18:25:00.000+00:00",
               "food_item_id": 165,
               "food_preparation_price": 0.0,
               "food_prepartion_name": "Spice Levels",
@@ -777,6 +858,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 131,
           "active": true,
           "last_modified_date": "2022-09-10 13:09:20.0",
@@ -795,6 +877,7 @@ export const navitems = {
       "is_sub_category": false,
       "food_item": [
         {
+          "status":0,
           "food_item_id": 195,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -803,6 +886,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 173,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -811,6 +895,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 157,
           "active": true,
           "last_modified_date": "2022-09-10 13:38:46.0",
@@ -819,6 +904,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 146,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -827,6 +913,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 155,
           "active": true,
           "last_modified_date": "2022-09-10 13:37:16.0",
@@ -835,6 +922,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 140,
           "active": true,
           "last_modified_date": "2022-09-10 13:24:13.0",
@@ -843,6 +931,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 196,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -851,6 +940,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 187,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -859,6 +949,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 180,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -867,6 +958,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 179,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -875,6 +967,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 182,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -883,6 +976,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 189,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -891,6 +985,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 202,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",
@@ -899,6 +994,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 142,
           "active": true,
           "last_modified_date": "2022-09-10 13:25:07.0",
@@ -907,6 +1003,7 @@ export const navitems = {
           "quantity": 0
         },
         {
+          "status":0,
           "food_item_id": 181,
           "active": true,
           "last_modified_date": "2022-09-02 20:51:09.0",

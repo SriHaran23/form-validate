@@ -6,7 +6,7 @@ function Sidenav({items,index,setIndex,setItemindex}) {
         setItemindex("")
         // console.log(index)
     }
-    // console.log(index)
+    console.log(index)
   return (
     <div>
         <aside className="bd-sidebar bd-expand-lg bg-body-tertiary border border-end">      

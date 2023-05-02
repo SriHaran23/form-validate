@@ -3,7 +3,6 @@ import React, { useState, useEffect, useContext, createContext, useRef } from 'r
 import * as Yup from 'yup'
 import TextField from './TextField'
 import { useNavigate } from 'react-router-dom';
-import { ThemeContext } from '../App';
 
 function Formval1() {
     const [details,setDetails]= useState([])
@@ -37,10 +36,10 @@ function Formval1() {
         console.log("form details",values);
         let res = [...details,values]
         setDetails(res)
-        localStorage.setItem("array",JSON.stringify(res))
+        localStorage.setItem("form",JSON.stringify(res))
     }
     useEffect(()=>{
-        const str = localStorage.getItem("array")
+        const str = localStorage.getItem("form")
         if(str){
             setDetails(JSON.parse(str))
         }
@@ -53,7 +52,7 @@ function Formval1() {
             details.splice(0);
             let res =[...details]
             setDetails(res)
-            localStorage.setItem("array",JSON.stringify(res))
+            localStorage.setItem("form",JSON.stringify(res))
         }
     }
     const del=(i)=>{
@@ -65,16 +64,18 @@ function Formval1() {
             temp.splice(i,1);
             let res =[...temp]
             setDetails(res)
-            localStorage.setItem("array",JSON.stringify(res))
+            localStorage.setItem("form",JSON.stringify(res))
         }
     }
-    const themes = useContext(ThemeContext);
-    const {theme,settheme}=themes
-//   const className = 'panel-' + theme;
     let ref = useRef(0);
 
   function handleClick() {
     ref.current = ref.current + 1;
+    setCount(ref.current)
+    // alert('You clicked ' + ref.current + ' times!');
+  }
+  function handleClick1() {
+    ref.current = ref.current - 1;
     setCount(ref.current)
     // alert('You clicked ' + ref.current + ' times!');
   }
@@ -89,7 +90,7 @@ function Formval1() {
                     resetForm();
                 }}
             >
-                <Form  className={theme?"bg-light":"bg-dark text-light"}>
+                <Form>
                     <div className="row p-md-5 p-1 border m-0">
                         <div className="col-md-6 col-sm-12 mb-3">
                             <TextField label="First Name" name="firstname" type="text"></TextField>
@@ -110,7 +111,14 @@ function Formval1() {
                             <TextField label="District" name="district" type="text"></TextField>
                         </div>
                         <div className="col-md-6 col-sm-12 mb-3">
-                            <TextField label="State" name="state" type="text"></TextField>
+                            <TextField label="State" name="state" as="select">
+                                <option value="select">--select one--</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Telangana">Telangana</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Tamilnadu">Tamilnadu</option>
+                            </TextField>
                         </div>
                         <div className="col-md-6 col-sm-12 mb-3">
                             <label className=''>Gender</label>
@@ -179,7 +187,7 @@ function Formval1() {
                         }
                     </tbody>
                 </table>
-                <button onClick={handleClick}>-</button>
+                <button onClick={handleClick1}>-</button>
                 <button onClick={handleClick}>+</button>
                 <p>Counter: {count}</p>
             </div>

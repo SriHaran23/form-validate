@@ -1,0 +1,15 @@
+.sidenav{
+    width: 15%;
+    height: 95vh;
+  }
+  
+  .list{
+    width: 65%;
+    height: 95vh;
+}
+
+.cart{
+    width: 20%;
+    height: 95vh;
+  }
+  

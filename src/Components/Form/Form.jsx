@@ -35,22 +35,22 @@ function Formval() {
     const onsubmit=(values)=>{
         console.log("form details",values)
         // setDetails([...details,values])
-        navigate("/")
+        navigate("/form")
         let temp=[...details]
         temp[data?.state?.i]=values
         console.log("i",temp)
         let res =[...temp]
         setDetails(res)
-        localStorage.setItem("array",JSON.stringify(res))
+        localStorage.setItem("form",JSON.stringify(res))
     }
     useEffect(()=>{
-        const str = localStorage.getItem("array")
+        const str = localStorage.getItem("form")
         if(str){
             setDetails(JSON.parse(str))
         }
     },[])
   return (
-    <div className='text-black'>
+    <div className='text-black my-5'>
         <Formik
             initialValues={initialValues}
             validationSchema={validationSchema}
@@ -130,7 +130,7 @@ function Formval() {
                             <ErrorMessage name="agreecheck" />
                         </div> */}
                     <div>
-                        <button className="btn btn-success float-center" type="submit">Update</button>
+                        <button className="btn btn-success float-end" type="submit">Update</button>
                     </div>
                 </div>
             </Form>

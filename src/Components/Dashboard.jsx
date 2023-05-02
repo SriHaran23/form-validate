@@ -1,26 +1,16 @@
 import React from 'react'
-import {navitems} from './Info'
-import Sidenav from './Sidenav'
-import List from './List'
-import { useState } from 'react'
-import Cart from './Cart'
-import './style.css';
-
+import { useNavigate } from 'react-router-dom'
 
 function Dashboard() {
-    const [index,setIndex]=useState(0)
-    const[itemindex,setItemindex]=useState()
-    let items=navitems?.catogories
-    let item=items[index]?.food_item
-    let cartitem=item[itemindex]
-    // console.log(cartitem)
-    
-  return (
+    const navigate = useNavigate()
+    return (
     <div>
-        <div className='d-flex gap-3'>
-            <div className='sidenav'><Sidenav items={items} index={index} setIndex={setIndex} setItemindex={setItemindex}></Sidenav></div>
-            <div className='list'><List item={item} itemindex={itemindex} setItemindex={setItemindex}></List></div> 
-            <div className='cart'><Cart cartitem={cartitem} itemindex={itemindex}></Cart></div>
+        <div className="container w-50 d-flex justify-content-around my-5">
+            <button className='btn btn-outline-info' onClick={()=>{navigate('/form')}}>Form</button>
+            <button className='btn btn-outline-success' onClick={()=>{navigate('/food')}}>Food</button>
+            <button className='btn btn-outline-primary' onClick={()=>{navigate('/errorhandling')}}>Errorhandling</button>
+            <button className='btn btn-outline-warning' onClick={()=>{navigate('/pagination')}}>Pagination</button>
+            <button className='btn btn-outline-danger' onClick={()=>{navigate('/translation')}}>Translation</button>
         </div>
     </div>
   )

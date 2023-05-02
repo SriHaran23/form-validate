@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 
-function Cart({cartitem}) {
+function Cart({cartitem,status,setStatus}) {
     const[cartlist,setcartlist]=useState([])
     useEffect(()=>{
         // console.log(cartlist)
@@ -24,7 +24,9 @@ function Cart({cartitem}) {
 
       const incNum = (i) => {
         cartlist[i].quantity=cartlist[i]?.quantity+1;
-        setcartlist([...cartlist])
+        let res = [...cartlist]
+        setcartlist(res)
+        localStorage.setItem("array",JSON.stringify(res))
       };
       let decNum = (i) => {
         cartlist[i].quantity=cartlist[i]?.quantity-1;
@@ -36,6 +38,7 @@ function Cart({cartitem}) {
             setcartlist(res)
             localStorage.setItem("array",JSON.stringify(res))
         }
+        setStatus(status-1)
       }
   return (
     <div className='border border-2 my-3 me-3 p-3 h-100'>
