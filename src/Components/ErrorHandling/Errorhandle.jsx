@@ -33,7 +33,7 @@ function Errorhandling() {
         <h1>Errorhandling</h1>
         {error &&  <div>{error}</div>}
         {ispending && <div>Loading....</div>}
-        {blogs && <BlogList blogs={blogs} title="All Blogs!"/>}
+        {blogs && <BlogList blogs={blogs} setBlogs={setBlogs} title="All Blogs!"/>}
     </div>
   )
 }
