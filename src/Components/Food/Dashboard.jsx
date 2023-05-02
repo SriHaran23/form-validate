@@ -17,11 +17,11 @@ function Dashboard() {
     
   return (
     <div>
-        <div className='d-flex gap-3'>
-            <div className='sidenav'><Sidenav items={items} index={index} setIndex={setIndex} setItemindex={setItemindex}></Sidenav></div>
-            <div className='list'><List status={status} setStatus={setStatus} item={item} itemindex={itemindex} setItemindex={setItemindex}></List></div> 
-            <div className='cart'><Cart status={status} setStatus={setStatus} cartitem={cartitem} itemindex={itemindex}></Cart></div>
-        </div>
+      <div className="row">
+        <div className='sidenav'><Sidenav items={items} index={index} setIndex={setIndex} setItemindex={setItemindex}></Sidenav></div>
+        <div className='list'><List status={status} setStatus={setStatus} item={item} itemindex={itemindex} setItemindex={setItemindex}></List></div> 
+        <div className='cart'><Cart status={status} setStatus={setStatus} cartitem={cartitem} itemindex={itemindex}></Cart></div>
+      </div>
     </div>
   )
 }
